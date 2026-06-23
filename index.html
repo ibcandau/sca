@@ -28575,7 +28575,7 @@
                 children: n + 1
               }), (0, h.jsxs)("span", {
                 children: [l[t.frecuencia] || "P", n + 1]
-              }), (0, h.jsx)("input", {
+              }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                 type: "number",
                 min: "0",
                 max: "100",
@@ -28640,7 +28640,7 @@
             className: "field",
             children: [(0, h.jsx)("label", {
               children: "L\xedmite (\u20ac)"
-            }), (0, h.jsx)("input", {
+            }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
               type: "number",
               value: r.rcf_limite,
               min: "0",
@@ -28650,7 +28650,7 @@
             className: "field",
             children: [(0, h.jsx)("label", {
               children: "Com. no disp. (%)"
-            }), (0, h.jsx)("input", {
+            }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
               type: "number",
               value: r.rcf_comision_nd,
               min: "0",
@@ -28670,7 +28670,7 @@
             }), (0, h.jsx)("span", {})]
           }), o.map((e, t) => (0, h.jsxs)("div", {
             className: "rcf-mov-row",
-            children: [(0, h.jsx)("input", {
+            children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
               type: "number",
               min: "1",
               max: i,
@@ -28686,7 +28686,7 @@
                 value: "amortizacion",
                 children: "Amortizaci\xf3n"
               })]
-            }), (0, h.jsx)("input", {
+            }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
               type: "number",
               min: "0",
               value: e.importe,
@@ -29199,7 +29199,7 @@
                   }, e))
                 }), (0, h.jsxs)("div", {
                   className: "toggle-row",
-                  children: [(0, h.jsx)("input", {
+                  children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                     type: "checkbox",
                     id: "overEur",
                     checked: U,
@@ -29214,7 +29214,7 @@
                     className: "field",
                     children: [(0, h.jsx)("label", {
                       children: e
-                    }), (0, h.jsx)("input", {
+                    }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                       type: "number",
                       step: "0.001",
                       placeholder: ge[e],
@@ -29248,7 +29248,7 @@
                     className: "field",
                     children: [(0, h.jsx)("label", {
                       children: "A\xf1o"
-                    }), (0, h.jsx)("input", {
+                    }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                       type: "number",
                       min: "2020",
                       max: "2060",
@@ -29272,7 +29272,7 @@
                       alignItems: "center",
                       gap: 8
                     },
-                    children: [(0, h.jsx)("input", {
+                    children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                       type: "number",
                       step: "0.01",
                       min: "0",
@@ -29303,7 +29303,7 @@
                       alignItems: "center",
                       gap: 8
                     },
-                    children: [(0, h.jsx)("input", {
+                    children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                       type: "number",
                       step: "0.01",
                       min: "0",
@@ -29383,7 +29383,7 @@
                           style: {
                             margin: 0
                           },
-                          children: [(0, h.jsx)("input", {
+                          children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                             type: "checkbox",
                             id: "act".concat(e.id),
                             checked: e.activo,
@@ -29408,7 +29408,7 @@
                       className: "field",
                       children: [(0, h.jsx)("label", {
                         children: "Nombre"
-                      }), (0, h.jsx)("input", {
+                      }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                         value: e.nombre,
                         onChange: t => xe(e.id, "nombre", t.target.value)
                       })]
@@ -29437,7 +29437,7 @@
                         className: "field",
                         children: [(0, h.jsx)("label", {
                           children: "Plazo (meses)"
-                        }), (0, h.jsx)("input", {
+                        }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           value: e.plazo_meses,
                           min: "1",
@@ -29449,7 +29449,7 @@
                       className: "field",
                       children: [(0, h.jsx)("label", {
                         children: "Plazo (meses)"
-                      }), (0, h.jsx)("input", {
+                      }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                         type: "number",
                         value: e.plazo_meses,
                         min: "1",
@@ -29461,7 +29461,7 @@
                       style: {
                         marginBottom: 6
                       },
-                      children: [(0, h.jsx)("input", {
+                      children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                         type: "checkbox",
                         id: "fp".concat(e.id),
                         checked: !!e.fecha_propia,
@@ -29496,7 +29496,7 @@
                           className: "field",
                           children: [(0, h.jsx)("label", {
                             children: "A\xf1o"
-                          }), (0, h.jsx)("input", {
+                          }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                             type: "number",
                             min: "2020",
                             max: "2060",
@@ -29530,7 +29530,7 @@
                         },
                         children: [(0, h.jsx)("label", {
                           children: "% sobre el spread (com. no disp.)"
-                        }), (0, h.jsx)("input", {
+                        }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           value: e.nd_pct,
                           min: "0",
@@ -29596,7 +29596,7 @@
                         children: "Per\xedodo de carencia (meses)"
                       }), (0, h.jsx)("div", {
                         className: "field",
-                        children: (0, h.jsx)("input", {
+                        children: (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           value: e.carencia_meses || 0,
                           min: "0",
@@ -29640,7 +29640,7 @@
                             fontFamily: "'Calibri',sans-serif",
                             fontSize: 13
                           },
-                          children: [(0, h.jsx)("input", {
+                          children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                             type: "radio",
                             checked: "pct" === e.balloon_modo,
                             onChange: () => xe(e.id, "balloon_modo", "pct")
@@ -29654,7 +29654,7 @@
                             fontFamily: "'Calibri',sans-serif",
                             fontSize: 13
                           },
-                          children: [(0, h.jsx)("input", {
+                          children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                             type: "radio",
                             checked: "importe" === e.balloon_modo,
                             onChange: () => xe(e.id, "balloon_modo", "importe")
@@ -29662,7 +29662,7 @@
                         })]
                       }), "pct" === e.balloon_modo ? (0, h.jsx)("div", {
                         className: "field",
-                        children: (0, h.jsx)("input", {
+                        children: (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           value: e.balloon_pct,
                           min: "0",
@@ -29672,7 +29672,7 @@
                         })
                       }) : (0, h.jsx)("div", {
                         className: "field",
-                        children: (0, h.jsx)("input", {
+                        children: (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           value: e.balloon_importe,
                           min: "0",
@@ -29735,7 +29735,7 @@
                       className: "field",
                       children: [(0, h.jsx)("label", {
                         children: "Tipo fijo (%)"
-                      }), (0, h.jsx)("input", {
+                      }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                         type: "number",
                         step: "0.01",
                         value: e.tipo_fijo,
@@ -29765,7 +29765,7 @@
                         className: "field",
                         children: [(0, h.jsx)("label", {
                           children: "Spread (%)"
-                        }), (0, h.jsx)("input", {
+                        }), (0, h.jsx)("input", { onFocus: e => e.target.select(),
                           type: "number",
                           step: "0.01",
                           value: e.spread,
@@ -29984,7 +29984,7 @@
                               cursor: "pointer",
                               color: "var(--muted)"
                             },
-                            children: [(0, h.jsx)("input", {
+                            children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                               type: "radio",
                               checked: "pct" === ie,
                               onChange: () => oe("pct")
@@ -29997,12 +29997,12 @@
                               cursor: "pointer",
                               color: "var(--muted)"
                             },
-                            children: [(0, h.jsx)("input", {
+                            children: [(0, h.jsx)("input", { onFocus: e => e.target.select(),
                               type: "radio",
                               checked: "importe" === ie,
                               onChange: () => oe("importe")
                             }), "\u20ac"]
-                          }), "pct" === ie ? (0, h.jsx)("input", {
+                          }), "pct" === ie ? (0, h.jsx)("input", { onFocus: e => e.target.select(),
                             type: "number",
                             step: "0.01",
                             min: "0",
@@ -30184,7 +30184,7 @@
                   style: {
                     marginBottom: 2
                   },
-                  onClick: () => function(e, t, r, n) {
+                  onClick: () => function(e, t, r, n, se, ce, vf, xf) {
                     const a = u().utils.book_new(),
                       i = e => ({
                         type: "pattern",
@@ -30315,136 +30315,78 @@
                       P = {
                         "!ref": "A1:A1"
                       };
-                    ["Fecha", "Tramo", "Tipo", "Saldo Inicial", "Amortizaci\xf3n", "Intereses", "Cuota Total", "Saldo Final"].forEach((e, t) => I(P, 0, t, e, y));
-                    let D = 1,
-                      M = null;
-                    e.forEach(e => {
-                      const t = e.anio !== M;
-                      M = e.anio;
-                      const r = t ? m : v,
-                        n = t ? "FFD8EEE0" : w,
-                        a = "grace" === e.tipo,
-                        i = "bullet" === e.tipo || "balloon" === e.tipo,
-                        s = () => a ? A(r) : i ? _(r) : T(r),
-                        l = "grace" === e.tipo ? "Carencia" : "bullet" === e.tipo ? "Bullet" : "balloon" === e.tipo ? "Balloon" : "rcf" === e.tipo ? "RCF" : "nd_previa" === e.tipo ? "Com.ND" : "Normal";
-                      I(P, D, 0, "".concat(b[e.mes - 1], " ").concat(e.anio), c(c({}, x(r)), {}, {
-                        font: o(t, 10, t ? "0033A0" : "6B7A99")
-                      })), I(P, D, 1, e.tramo_nombre, c(c({}, x(r)), {}, {
-                        font: o(t, 10, "001F5B")
-                      })), I(P, D, 2, l, c(c({}, x(r)), {}, {
-                        font: o(!1, 9, a ? "8B2A2A" : i ? "0033A0" : "8A9BBF")
-                      })), R(P, D, 3, e.saldo_inicial, F, s()), R(P, D, 4, e.amort, F, s()), R(P, D, 5, e.interes, F, s()), R(P, D, 6, e.cuota, F, k(n)), R(P, D, 7, e.saldo_final, F, s()), D++
-                    }), I(P, D, 0, "TOTAL", E), I(P, D, 1, "", S), I(P, D, 2, "", S), I(P, D, 3, "\u2014", S), R(P, D, 4, e.reduce((e, t) => e + t.amort, 0), F, S), R(P, D, 5, e.reduce((e, t) => e + t.interes, 0), F, S), R(P, D, 6, e.reduce((e, t) => e + t.cuota, 0), F, S), I(P, D, 7, "\u2014", S), P["!cols"] = [{
-                      wch: 13
-                    }, {
-                      wch: 20
-                    }, {
-                      wch: 11
-                    }, {
-                      wch: 18
-                    }, {
-                      wch: 18
-                    }, {
-                      wch: 16
-                    }, {
-                      wch: 18
-                    }, {
-                      wch: 18
-                    }], void 0;
-                    const L = {
-                      "!ref": "A1:A1"
-                    };
-                    ["A\xf1o", "Amortizaci\xf3n", "Intereses", "Servicio Deuda", "Saldo Final", "% Amort."].forEach((e, t) => I(L, 0, t, e, y));
-                    const j = {};
-                    e.forEach(e => {
-                      j[e.anio] || (j[e.anio] = {
-                        amort: 0,
-                        interes: 0,
-                        saldo_final: 0
-                      }), j[e.anio].amort += e.amort, j[e.anio].interes += e.interes, j[e.anio].saldo_final = e.saldo_final
+                    // ---- Hoja "Resumen Anual": matrices por tramo + cuadro de flujos ----
+                    const L = { "!ref": "A1:A1" };
+                    let row = 0;
+                    se.forEach((blk, bi) => {
+                      const anios = blk.anios, cap = blk.cap, nA = anios.length, col = N[bi % N.length];
+                      I(L, row, 0, blk.tramo.nombre + "  \u00b7  " + d(blk.tramo.importe) + " \u20ac  \u00b7  " + p(blk.tasaAnual, 3), { font: o(!0, 11, "FFFFFF"), fill: i(col), alignment: l("left"), border: s("4A7CC7") });
+                      for (let cc = 1; cc <= nA + 1; cc++) I(L, row, cc, "", { fill: i(col), border: s("4A7CC7") });
+                      L["!merges"] = L["!merges"] || []; L["!merges"].push({ s: { r: row, c: 0 }, e: { r: row, c: nA + 1 } }); row++;
+                      I(L, row, 0, "Desde fecha de firma:", y);
+                      anios.forEach((yr, j) => I(L, row, j + 1, j + 1, c(c({}, y), {}, { alignment: l("center") })));
+                      I(L, row, nA + 1, "Total", y); row++;
+                      const sumA = anios.reduce((q, yr) => q + yr.amort, 0), sumI = anios.reduce((q, yr) => q + yr.interes, 0), sumC = anios.reduce((q, yr) => q + yr.cuotaInt, 0);
+                      I(L, row, 0, "% Amortizaci\u00f3n", x()); anios.forEach((yr, j) => R(L, row, j + 1, yr.pct / 100, O, c(c({}, T()), {}, { alignment: l("center"), font: o(!1, 10, "0033A0") }))); R(L, row, nA + 1, cap > 0 ? sumA / cap : 0, O, S); row++;
+                      I(L, row, 0, "Amortizaci\u00f3n", x()); anios.forEach((yr, j) => R(L, row, j + 1, yr.amort, F, T())); R(L, row, nA + 1, sumA, F, S); row++;
+                      I(L, row, 0, "Saldo Final", x()); anios.forEach((yr, j) => R(L, row, j + 1, yr.saldo_final, F, T())); I(L, row, nA + 1, "\u2014", S); row++;
+                      I(L, row, 0, "Intereses", x()); anios.forEach((yr, j) => R(L, row, j + 1, yr.interes, F, T())); R(L, row, nA + 1, sumI, F, S); row++;
+                      I(L, row, 0, "Cuota + Intereses", x()); anios.forEach((yr, j) => R(L, row, j + 1, yr.cuotaInt, F, k())); R(L, row, nA + 1, sumC, F, S); row++;
+                      row++;
                     });
-                    let B = 1;
-                    Object.keys(j).sort((e, t) => +e - +t).forEach((e, t) => {
-                      const r = j[e],
-                        a = t % 2 === 0 ? v : m,
-                        i = t % 2 === 0 ? w : "FFD8EEE0";
-                      I(L, B, 0, +e, c(c({}, x(a)), {}, {
-                        font: o(!0, 10, "0033A0"),
-                        alignment: l("center")
-                      })), R(L, B, 1, r.amort, F, T(a)), R(L, B, 2, r.interes, F, T(a)), R(L, B, 3, r.amort + r.interes, F, k(i)), R(L, B, 4, r.saldo_final, F, T(a)), R(L, B, 5, n.totalCapital > 0 ? r.amort / n.totalCapital : 0, O, c(c({}, T(a)), {}, {
-                        font: o(!1, 10, "0033A0")
-                      })), B++
+                    ce.forEach((blk, bi) => {
+                      const anios = blk.anios, nA = anios.length, col = N[(se.length + bi) % N.length];
+                      I(L, row, 0, "RCF  \u00b7  " + d(blk.tramo.rcf_limite) + " \u20ac  \u00b7  " + p(blk.tasaAnual, 3), { font: o(!0, 11, "FFFFFF"), fill: i(col), alignment: l("left"), border: s("4A7CC7") });
+                      for (let cc = 1; cc <= nA + 1; cc++) I(L, row, cc, "", { fill: i(col), border: s("4A7CC7") });
+                      L["!merges"] = L["!merges"] || []; L["!merges"].push({ s: { r: row, c: 0 }, e: { r: row, c: nA + 1 } }); row++;
+                      I(L, row, 0, "Desde fecha de firma:", y); anios.forEach((yr, j) => I(L, row, j + 1, j + 1, c(c({}, y), {}, { alignment: l("center") }))); I(L, row, nA + 1, "Total", y); row++;
+                      I(L, row, 0, "Dispuesto medio", x()); anios.forEach((yr, j) => R(L, row, j + 1, blk.dispuesto, F, T())); I(L, row, nA + 1, "\u2014", S); row++;
+                      I(L, row, 0, "Intereses", x()); anios.forEach((yr, j) => R(L, row, j + 1, (yr.interes || 0) + (yr.comNd || 0), F, T())); R(L, row, nA + 1, (blk.totalInteres || 0) + (blk.totalComNd || 0), F, S); row++;
+                      row++;
                     });
-                    const z = e.reduce((e, t) => e + t.amort, 0),
-                      U = e.reduce((e, t) => e + t.interes, 0);
-                    I(L, B, 0, "TOTAL", E), R(L, B, 1, z, F, S), R(L, B, 2, U, F, S), R(L, B, 3, z + U, F, S), I(L, B, 4, "\u2014", S), R(L, B, 5, 1, O, S), L["!cols"] = [{
-                      wch: 8
-                    }, {
-                      wch: 20
-                    }, {
-                      wch: 18
-                    }, {
-                      wch: 22
-                    }, {
-                      wch: 18
-                    }, {
-                      wch: 20
-                    }];
-                    let W = B + 2;
-                    t.forEach((t, r) => {
-                      let n = t.tramo,
-                        a = (t.filas, t.tasaAnual);
-                      t.freqM;
-                      const f = N[r % N.length],
-                        u = "rcf" === n.tipo_amort,
-                        h = "".concat(u ? "RCF" : n.nombre, "  \xb7  ").concat(d(u ? n.rcf_limite : n.importe), " \u20ac  \xb7  ").concat(p(a, 3));
-                      I(L, W, 0, h, {
-                        font: o(!0, 11, "FFFFFF"),
-                        fill: i(f),
-                        alignment: l("left"),
-                        border: s("4A7CC7")
+                    const __ck = (mes, anio) => Math.floor(((anio - vf) * 12 + (mes - xf)) / 12);
+                    const __rows = [], __cols = {}, __add = q => __cols[q] = 1;
+                    t.forEach(R0 => { const tr = R0.tramo; if ("rcf" === tr.tipo_amort) return;
+                      const fe = r(tr), dk = __ck(fe.mes, fe.anio); __add(dk);
+                      const disp = {}; disp[dk] = tr.importe; const am = {}, it = {};
+                      e.forEach(w => { if (w.tramo_id !== tr.id || "rcf" === w.tipo) return; const q = __ck(w.mes, w.anio); __add(q); if (!w.es_nd_previa) am[q] = (am[q] || 0) + w.amort; it[q] = (it[q] || 0) + (w.interes || 0) + (w.comision_nd || 0); });
+                      __rows.push({ label: "Disposici\u00f3n " + tr.nombre, kind: "in", by: disp });
+                      __rows.push({ label: "Amortizaci\u00f3n " + tr.nombre, kind: "out", by: am });
+                      __rows.push({ label: "Intereses " + tr.nombre, kind: "out", by: it });
+                    });
+                    t.forEach(R0 => { const tr = R0.tramo; if ("rcf" !== tr.tipo_amort) return;
+                      const mv = {}; e.forEach(w => { if (w.tramo_id !== tr.id || "rcf" !== w.tipo) return; const q = __ck(w.mes, w.anio); __add(q); mv[q] = (mv[q] || 0) + (w.disposicion || 0) - (w.amort || 0); });
+                      const ir = {}, ceE = ce.find(z => z.tramo.id === tr.id);
+                      if (ceE) ceE.anios.forEach(yr => { const q = yr.anioIdx; __add(q); ir[q] = (ir[q] || 0) + (yr.interes || 0) + (yr.comNd || 0); });
+                      __rows.push({ label: tr.nombre, kind: "net", by: mv });
+                      __rows.push({ label: "Intereses " + tr.nombre, kind: "out", by: ir });
+                    });
+                    const fk = __ck(xf, vf); __add(fk);
+                    const __com = {};
+                    if (n.comAgencia > 0) for (let q = 0; q < n.numAnios; q++) { __com[q] = (__com[q] || 0) + n.comAgencia; __add(q); }
+                    __com[fk] = (__com[fk] || 0) + (n.impEstructuracion || 0) + (n.impDireccion || 0);
+                    if (Object.keys(__com).reduce((acc, q) => acc + __com[q], 0) > 0.5) __rows.push({ label: "Comisiones", kind: "out", by: __com, sep: !0 });
+                    const __ca = Object.keys(__cols).map(Number).sort((p1, p2) => p1 - p2);
+                    const Ff = "#,##0 \u20ac;(#,##0 \u20ac)";
+                    if (__rows.length) {
+                      row++;
+                      I(L, row, 0, "Flujos de la operaci\u00f3n", { font: o(!0, 11, "FFFFFF"), fill: i(h), alignment: l("left"), border: s("4A7CC7") });
+                      for (let cc = 1; cc <= __ca.length; cc++) I(L, row, cc, "", { fill: i(h), border: s("4A7CC7") });
+                      L["!merges"] = L["!merges"] || []; L["!merges"].push({ s: { r: row, c: 0 }, e: { r: row, c: Math.max(1, __ca.length) } }); row++;
+                      I(L, row, 0, "Per\u00edodo (a\u00f1o desde firma):", y); __ca.forEach((kk, j) => I(L, row, j + 1, kk + 1, c(c({}, y), {}, { alignment: l("center") }))); row++;
+                      __rows.forEach(fr => {
+                        I(L, row, 0, fr.label, fr.sep ? c(c({}, x()), {}, { font: o(!0, 10, "001F5B") }) : x());
+                        __ca.forEach((kk, j) => {
+                          const val = fr.by[kk];
+                          if (void 0 === val || Math.abs(val) < 0.5) { I(L, row, j + 1, "", T()); return; }
+                          const signed = "out" === fr.kind ? -Math.abs(val) : ("net" === fr.kind ? val : Math.abs(val));
+                          R(L, row, j + 1, signed, Ff, "in" === fr.kind ? _(v) : (signed < 0 ? A(v) : T()));
+                        });
+                        row++;
                       });
-                      for (let e = 1; e <= 5; e++) I(L, W, e, "", {
-                        fill: i(f),
-                        border: s("4A7CC7")
-                      });
-                      L["!merges"] = L["!merges"] || [], L["!merges"].push({
-                        s: {
-                          r: W,
-                          c: 0
-                        },
-                        e: {
-                          r: W,
-                          c: 5
-                        }
-                      }), W++, ["A\xf1o", "Amortizaci\xf3n", "Intereses", "Servicio", "Saldo Final"].forEach((e, t) => I(L, W, t, e, y)), W++;
-                      const g = e.filter(e => e.tramo_id === n.id),
-                        b = {};
-                      g.forEach(e => {
-                        b[e.anio] || (b[e.anio] = {
-                          amort: 0,
-                          interes: 0,
-                          cuota: 0,
-                          saldo_final: 0
-                        }), b[e.anio].amort += e.amort, b[e.anio].interes += e.interes, b[e.anio].cuota += e.cuota, b[e.anio].saldo_final = e.saldo_final
-                      }), Object.keys(b).sort((e, t) => +e - +t).forEach((e, t) => {
-                        const r = b[e],
-                          n = t % 2 === 0 ? v : m,
-                          a = t % 2 === 0 ? w : "FFD8EEE0";
-                        I(L, W, 0, +e, c(c({}, x(n)), {}, {
-                          font: o(!0, 10, "0033A0"),
-                          alignment: l("center")
-                        })), R(L, W, 1, r.amort, F, T(n)), R(L, W, 2, r.interes, F, T(n)), R(L, W, 3, r.cuota, F, k(a)), R(L, W, 4, r.saldo_final, F, T(n)), W++
-                      });
-                      const C = Object.values(b).reduce((e, t) => e + t.amort, 0),
-                        A = Object.values(b).reduce((e, t) => e + t.interes, 0),
-                        _ = Object.values(b).reduce((e, t) => e + t.cuota, 0);
-                      I(L, W, 0, "TOTAL ".concat(u ? "RCF" : n.nombre), E), R(L, W, 1, C, F, S), R(L, W, 2, A, F, S), R(L, W, 3, _, F, S), I(L, W, 4, "\u2014", S), W++;
-                      for (let e = 0; e <= 5; e++) I(L, W, e, "", {
-                        fill: i(v)
-                      });
-                      W++
-                    }), u().utils.book_append_sheet(a, L, "Resumen Anual");
+                    }
+                    L["!cols"] = [{ wch: 26 }]; for (let q = 0; q < 40; q++) L["!cols"].push({ wch: 15 });
+                    u().utils.book_append_sheet(a, L, "Resumen Anual");
                     const H = {
                       "!ref": "A1:A1"
                     };
@@ -30519,6 +30461,20 @@
                     }, {
                       wch: 11
                     }], u().utils.book_append_sheet(a, H, "Por Tramos");
+                    const TA = { "!ref": "A1:A1" };
+                    ["A\u00f1o", "Amortizaci\u00f3n", "Intereses", "Servicio Deuda", "Saldo Final", "% Amort."].forEach((hd, ci) => I(TA, 0, ci, hd, y));
+                    const jj = {};
+                    e.forEach(w => { jj[w.anio] || (jj[w.anio] = { amort: 0, interes: 0, saldo_final: 0 }); jj[w.anio].amort += w.amort; jj[w.anio].interes += w.interes; jj[w.anio].saldo_final = w.saldo_final; });
+                    let bb = 1;
+                    Object.keys(jj).sort((p1, p2) => +p1 - +p2).forEach((yk, ti) => {
+                      const rr = jj[yk], aa = ti % 2 === 0 ? v : m, ii = ti % 2 === 0 ? w : "FFD8EEE0";
+                      I(TA, bb, 0, +yk, c(c({}, x(aa)), {}, { font: o(!0, 10, "0033A0"), alignment: l("center") }));
+                      R(TA, bb, 1, rr.amort, F, T(aa)); R(TA, bb, 2, rr.interes, F, T(aa)); R(TA, bb, 3, rr.amort + rr.interes, F, k(ii)); R(TA, bb, 4, rr.saldo_final, F, T(aa)); R(TA, bb, 5, n.totalCapital > 0 ? rr.amort / n.totalCapital : 0, O, c(c({}, T(aa)), {}, { font: o(!1, 10, "0033A0") })); bb++;
+                    });
+                    const zz = e.reduce((q, w) => q + w.amort, 0), uu = e.reduce((q, w) => q + w.interes, 0);
+                    I(TA, bb, 0, "TOTAL", E); R(TA, bb, 1, zz, F, S); R(TA, bb, 2, uu, F, S); R(TA, bb, 3, zz + uu, F, S); I(TA, bb, 4, "\u2014", S); R(TA, bb, 5, 1, O, S);
+                    TA["!cols"] = [{ wch: 8 }, { wch: 20 }, { wch: 18 }, { wch: 22 }, { wch: 18 }, { wch: 20 }];
+                    u().utils.book_append_sheet(a, TA, "Total Amortizaci\u00f3n Anual");
                     const $ = u().write(a, {
                         bookType: "xlsx",
                         type: "array"
@@ -30529,7 +30485,7 @@
                       X = URL.createObjectURL(G),
                       Y = document.createElement("a");
                     Y.href = X, Y.download = "SCA_Simulador.xlsx", document.body.appendChild(Y), Y.click(), document.body.removeChild(Y), URL.revokeObjectURL(X)
-                  }(we, ve, be, ye),
+                  }(we, ve, be, ye, Se, Ce, V, X),
                   children: "\u2b07 Excel"
                 })]
               }), (0, h.jsx)("div", {
